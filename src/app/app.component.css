@@ -1,3 +1,22 @@
-.title{
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between logo and title */
+  background-color: #f5f5f5; /* Optional background */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.logo {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  object-fit: contain; /* Ensure the logo scales correctly */
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Adjust title color */
+  margin: 0;
   text-align: center;
 }
